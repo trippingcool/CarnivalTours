@@ -1,0 +1,93 @@
+:root {
+    /* Colores clave */
+    --primary-blue: #007bff; /* Azul para el texto principal */
+    --button-red: #e64a4a; /* Rojo ladrillo para los botones */
+    --text-dark: #2c3e50;
+    --text-white: #ffffff;
+}
+
+body {
+    /* El degradado de la imagen va de un azul claro a un melocotón/rosa claro */
+    background: linear-gradient(to bottom, #a0d4ff, #83b9ff, #f7d4d4);
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y legible */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; /* Asegura que el degradado cubra toda la pantalla */
+}
+
+.container {
+    width: 100%;
+    max-width: 450px; /* Limita el ancho en pantallas grandes para simular móvil */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* * Estilos del Encabezado */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-text {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--button-red); 
+    margin: 0;
+    font-family: cursive; /* Sustituto genérico para el estilo 'tripping cool' */
+}
+
+.carnival-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--button-red);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.header-divider {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 20px 0;
+}
+
+/* * Título de la Sección */
+.section-title {
+    color: var(--primary-blue);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+/* * Contenedor de Botones (Responsive con CSS Grid) */
+.button-grid {
+    display: grid;
+    /* Dos columnas de igual ancho para el diseño responsive en móvil (2x2) */
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; /* Espacio entre los botones */
+    padding: 0 10px; 
+}
+
+.btn {
+    /* Estilos del botón */
+    display: block;
+    padding: 20px 10px;
+    background-color: var(--button-red);
+    color: var(--text-white);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d13c3c; 
+}
