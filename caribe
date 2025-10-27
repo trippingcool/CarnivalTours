@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripping Cool - Carnival Experiences</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Logo Section -->
+    <div class="logo-section">
+      <img src="trippingcool-logo.png" alt="tripping cool" class="logo-tripping">
+      <img src="carnival-logo.png" alt="Carnival" class="logo-carnival">
+    </div>
+    <hr class="divider">
+    <h1 class="experiences-title">OUR EXPERIENCES</h1>
+    <div class="cards-grid">
+      <div class="experience-card">PROGRESO</div>
+      <div class="experience-card">COZUMEL</div>
+      <div class="experience-card">CAYMAN</div>
+      <div class="experience-card">SAN JUAN</div>
+    </div>
+  </div>
+</body>
+</html>
