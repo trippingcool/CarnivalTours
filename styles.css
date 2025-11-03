@@ -30,20 +30,23 @@ body {
     padding: 20px 0;
 }
 
-.logo-text {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--button-red); 
-    margin: 0;
-    font-family: cursive; /* Sustituto genérico para el estilo 'tripping cool' */
+
+
+.logo-img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
-.carnival-text {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--button-red);
-    margin-top: 5px;
-    margin-bottom: 20px;
+.tripping-cool-img {
+    width: 200px; /* Ajusta este valor */
+    margin-bottom: 5px;
+}
+
+.carnival-img {
+    width: 120px; /* Ajusta este valor */
+    margin-top: 10px;
 }
 
 .header-divider {
